@@ -1,0 +1,12 @@
+name: jsAction
+description: calculator to test JavaScript actions
+inputs:
+  number1:
+    required: true
+    default: 0
+  number2:
+    required: true
+    default: 0
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
